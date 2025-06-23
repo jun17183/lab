@@ -36,4 +36,5 @@ export interface PostsResponse {
   total: number;
   page: number;
   limit: number;
+  lastDoc?: any; // Firebase QueryDocumentSnapshot for pagination
 } 
